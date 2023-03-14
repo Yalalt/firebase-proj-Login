@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.productsGroup {
+  width: 500px;
+  
+  text-align: left;
+}
+
+.formInputProduct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 30px 0;
+  gap: 10px;
+}
+.formInputProduct button, .formInputProduct input {
+  width: 250px;
+  height: 30px;
+}
